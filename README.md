@@ -75,7 +75,3 @@ config.notifyViewWaitDuration = 2.f;
 # 联系我
 * QQ群：856876741
 * 微信号：liujunmin6980
-
-
-
-856876741
