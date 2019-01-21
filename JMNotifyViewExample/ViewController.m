@@ -94,7 +94,7 @@
         [JMNotifyView showNotify:@"你还未实名, 请实名, 如有问题, 请联系客服" showView:[UIApplication sharedApplication].keyWindow config:config];
     } else { //系统默认配置样式
         
-        // 超级自定义配置
+        // 默认自带样式
         JMNotifyViewConfig *config = [JMNotifyViewConfig defaultNotifyConfig];
         
         // 系统自带默认四种实现类型
@@ -108,7 +108,7 @@
             config.backgroundColorType = JMNotifyViewBackgroundColorTypeInfo;
         }
         //显示
-        [JMNotifyView showNotify:@"你还未实名, 请实名, 如有问题, 请联系客服, 在写五个字" showView:[UIApplication sharedApplication].keyWindow config:config];
+        [JMNotifyView showNotify:@"你还未实名, 请实名, 如有问题, 请联系客服" showView:[UIApplication sharedApplication].keyWindow config:config];
     }
     
     
